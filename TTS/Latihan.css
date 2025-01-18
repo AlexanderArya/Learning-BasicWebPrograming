@@ -1,0 +1,357 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+:root{
+    --primary : #DE0004;
+    --bg: ;
+    --code: #171717;
+}
+
+body {
+    font-family:"Poppins", sans-serif;
+    background-color: white;
+    color: white;
+    /* height: 1000rem; */
+}
+
+/* Navbar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 7%;
+    /* background-color:rgb(120, 96, 51, 0.8) ; */
+    background-color: rgb(23, 23, 23, 0.6);
+    border-bottom: 1px solid white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+.navbar .navbar-logo {
+    font-size:19px ;
+    font-weight: 550;
+    font-style: italic;
+    color: white;
+}
+
+.navbar .navbar-logo span {
+    color: var(--primary);
+}
+
+
+.navbar .navigasi a {
+    color: white;
+    font-size: 1.3rem ;
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+.navbar .navigasi a:hover {
+    color: var(--primary);
+    
+}
+
+.navbar-icon a{
+color: white;
+margin: 0 0.5rem;
+}
+
+.navbar-icon a:hover{
+    color:var(--primary)
+    }
+
+.menu {
+    display: none;
+}
+
+/* Banner */
+.banner {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(/TTS/img/cover1.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+
+.banner .konten {
+    padding: 1.5rem 10%;
+    max-width: 50%;
+
+}
+
+.banner .konten h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    line-height: 2rem;
+    text-shadow: 1px 1px 3px var(--code);
+}
+
+.banner .konten h1 span {
+    color: var(--primary);
+}
+
+.banner .konten p {
+    font-size: 1rem;
+    color: #fff;
+    line-height: 1.5rem;
+    font-weight: 50rem;
+    text-shadow: 1px 1px 3px  black;
+}
+
+.banner .konten a {
+    color: white;
+}
+.banner .konten .menus {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+    background-color: var(--code); 
+}
+
+.banner .konten .menus:hover {
+    box-shadow:1px 1px 3px white;
+    border: 2px solid white;
+    
+}
+
+.list-barang {
+    min-height: 100vh;
+    background-color: black;
+    border-top: 1px solid white ;
+    border-bottom: 1px solid white;
+}
+
+.list-barang h1 {
+    text-align: center;
+    margin:100px ;
+}
+
+.container-foto {
+    border: 0px solid red;
+    margin: 0px 5% 0px 5%;
+    box-sizing: border-box;
+    display:block;
+    overflow:hidden;
+    justify-content: space-between;
+    /* padding: 0px 2% 0px 2%; */
+    padding-left:30px ;
+    height: 270px;  
+    
+}
+
+
+.foto {
+    border: 0px solid red;
+    float: left;
+    height: 270px;
+    width: 180px;
+    background-color: #171717;
+    margin: 0px 10px 0px 0px;
+    border-radius: 4%;
+    box-sizing: border-box;
+    text-align: center;
+    overflow: hidden;
+
+}
+
+.container-foto a.foto img {
+    margin-top: 20px;
+    width: 132px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.foto:hover {
+    border: 1px solid white;
+    cursor: default;
+}
+
+.foto p {
+    /* /* margin-left: 25px; */
+    margin-top: 18px; 
+    color: white;
+}
+
+.linked {
+    background-color: white;
+    width: 100px;
+    height: 50px;
+    margin:30px 5% 0px 7%;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 5%;
+}
+
+.linked a{
+ color: black;  
+}
+
+.about {
+    color: #171717;
+    background-color: white ;
+    /* height: 100vh; */
+    text-align: center;
+    height: 100vh;
+}   
+
+.about h2 {
+    margin-top: 20px;
+}
+
+
+
+.org-pertama  {
+    margin: 20px 4% 50px 2%;
+    height: 280px;
+    box-sizing: border-box;
+    /* border: 1px solid  red;    */
+    text-align: left    ;
+
+}
+
+.org-pertama p {
+    margin-left: 450px;
+    border-left: 3px solid black;
+    padding: 10px;
+    font-size: 20px;
+ 
+}
+
+
+.org-pertama img {
+    height: 280px;
+    float: left;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-radius: 2px;
+}
+
+.org-kedua {
+    height: 280px;
+    margin: 0px 4% 0px 2%;
+
+}
+
+.org-kedua img {
+    height: 280px;
+    width: 430px;
+    float: right;
+}
+
+.org-kedua p {
+    text-align: right;
+    margin-right: 460px ;
+    border-right:3px solid black ;
+    font-size: 20px;
+    padding: 10px;
+ 
+}
+
+.kontak {
+    border-top:5px solid #3D3D3D ;
+    height: 25vh;
+    margin-top: 50px;
+    background-color: #222222;
+    color: #A0A0A0;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.container-kontak {
+    margin: 0px 5% 0px 5%;
+    box-sizing: border-box;
+    display:block;
+    justify-content: space-between ;
+    /* padding: 0px 2% 0px 2%; */
+    padding-left:30px ;
+    height: 50px;  
+
+
+}
+
+.isi-kiri {
+    float: left;
+    text-align: left;
+
+}
+
+.isi-kiri a {
+    color: #A0A0A0;
+
+}
+
+.isi-kiri a i {
+    margin-top: 5px;
+}
+
+.isi-kanan {
+    float: right;
+    text-align: right;
+
+}
+
+.isi-kanan a {
+    color: #A0A0A0;
+    
+}
+
+.isi-kanan a i {
+    margin-top: 5px;
+}
+
+
+
+/* Setting ukuran Layar */
+/* Laptop */
+
+@media (max-width: 1366px){
+    html{
+        font-size: 75%;
+    }
+
+}
+
+/* Tablet */
+
+@media (max-width: 578px){
+    html {
+        font-size: 62.5%;
+    }
+    .menu {
+        display: inline-block;
+    }
+
+    .navbar .navigasi {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        background-color: var(--primary);
+        transition: 0.5s;
+        width: 30rem;
+        height: 100vh;
+    }
+
+    .navbar .navigasi.active {
+        right: 0;
+    }
+    .org-pertama p {
+        display: none;   
+
+    }    
+
+    .org-kedua p {
+        display: none;
+    }
+}
