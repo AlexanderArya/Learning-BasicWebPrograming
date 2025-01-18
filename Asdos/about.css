@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family:monospace;
+    text-align: center;
+    justify-content: center;
+}
+
+body {
+    margin: 0px 200px 0px 200px;
+}
+
+.navbar {
+    /* background-color: rgb(0, 0, 0, 0.8) ; */
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    font-size: 20px;
+    padding: 0px 20px 0px 10px;
+}
+
+.navbar a {
+    color: black;
+    margin: 0px 20px 0px 20px;
+}
+
+.navbar a:hover {
+    color: grey;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 200;
+}
+
+.linked-list sup{
+    color: grey;
+    font-size: 20px;
+}
+
+.konten {
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+
+
+.konten img {
+    margin:20px 0px 20px 0px ;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+}
+
+.sekolah {
+    display: block;
+    /* border: 1px solid red; */
+    height: 230px;
+    margin-top: 30px;
+}  
+
+.sekolah img {
+    width: 300px;
+    height: 200px;
+    float: left;
+    padding-right: 10px;
+    border-right: 3px solid black;
+    border-top-left-radius:10px ;
+    border-bottom-left-radius:10px ;
+}
+
+.sekolah p {
+    text-align: left;
+    margin: 10px 0px 0px 15px;
+    float: left;
+}
+
+.sekolah p b {
+    font-size: 30px;
+}
+
+.sekul {
+    display: block;
+    height: 230px;
+    margin-top: 30px;
+}
+
+.sekul img {
+    width: 300px;
+    height: 200px;
+    float: right;
+    padding-left: 10px;
+    border-left: 3px solid black;
+    border-top-right-radius:10px ;
+    border-bottom-right-radius:10px ;
+}
+
+.sekul p b {
+    font-size: 30px;
+
+}
+
+.sekul p {
+    text-align: right;
+    margin: 10px 15px 0px 0px;
+    float: right;
+}
+
